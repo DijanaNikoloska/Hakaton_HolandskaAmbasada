@@ -1,0 +1,19 @@
+.LandingImg {
+  background-image: url("/images/Frame.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.LandingText {
+  color: black;
+  padding: 20px;
+  font-size: 50px;
+  font-weight: bold;
+  border-radius: 10px;
+}
