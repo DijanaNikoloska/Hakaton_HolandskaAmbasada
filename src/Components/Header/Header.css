@@ -58,19 +58,6 @@
   height: 20px;
 }
 
-.auth-buttons button {
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  margin-left: 10px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.auth-buttons .sign-up {
-  background-color: #024f40;
-}
-
 .auth-buttons button:hover {
   opacity: 0.8;
 }
