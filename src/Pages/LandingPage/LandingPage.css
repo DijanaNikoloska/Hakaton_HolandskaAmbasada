@@ -13,5 +13,154 @@
 .LandingText {
   color: black;
   padding: 20px;
-  font-size: 50px;
+  font-size: 60px;
+  width: 40%;
+  text-align: center;
+}
+
+.ButtonsContainer {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.LandingButtons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: end;
+  align-items: end;
+}
+
+.signup-btn,
+.getstarted-btn {
+  padding: 10px 20px;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.signup-btn {
+  background-color: #024f40;
+  color: white;
+}
+
+.signup-btn:hover {
+  background-color: #06624f;
+}
+
+.getstarted-btn {
+  background-color: #024f40;
+  color: white;
+}
+
+.getstarted-btn:hover {
+  background-color: #06624f;
+}
+
+.LandingDescriptionContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: #f5f5f5;
+}
+
+.LandingDescription {
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  width: 80%;
+}
+
+.CardsContainer {
+  display: flex;
+
+  padding: 40px;
+  text-align: center;
+}
+
+.Card {
+  width: 50%;
+}
+
+.LearningTagContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.LearningTag {
+  color: #06624f;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.unlock-lesson-btn {
+  font-size: 16px;
+  background-color: #06624f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: none;
+}
+
+.unlock-lesson-btn:hover {
+  background-color: #45a049;
+}
+
+.NewSection {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.new-section-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.new-section-text h3 {
+  font-size: 40px;
+}
+
+.new-section-text p {
+  font-size: 20px;
+}
+
+.new-section-buttons {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+
+.new-btn-1,
+.new-btn-2 {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #06624f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.new-btn-1:hover,
+.new-btn-2:hover {
+  background-color: #45a049;
+}
+
+.new-section-text {
+  width: 50%;
+  color: #06624f;
+}
+
+.new-section-image {
+  height: 400px;
+  object-fit: cover;
 }
