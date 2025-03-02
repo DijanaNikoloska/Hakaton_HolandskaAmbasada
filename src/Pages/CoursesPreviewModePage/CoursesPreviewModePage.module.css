@@ -1,0 +1,459 @@
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.previewStyles {
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.previewContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: #F1F0E8;
+    padding: 24px;
+}
+
+.progressContainer{
+    padding: 24px;  
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+@media (min-width: 1024px) {
+    .previewContainer {
+        flex-direction: row;
+    }
+}
+
+.videoSection {
+    flex: 3;
+    border-radius: 8px;
+}
+
+.videoContainer {
+    border: 2px solid #024F40;
+    border-radius: 8px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.videoPlayer {
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    position: relative;
+}
+
+.playIcon {
+    width: 60px;
+}
+
+.videoDescription {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.videoText {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: #024F40;
+}
+
+.videoTitle {
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 73px;
+}
+
+.progressBar {
+    width: 100%;
+    height: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.progressFill {
+    background-color: #024F40;
+    height: 4px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.videoControls {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 24px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    row-gap: 16px;
+}
+
+.videoControlsDiv {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.videoControlsDiv img {
+    width: 24px;
+}
+
+.lessonInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    gap: 16px;
+}
+
+.lessonDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.creatorInfo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    row-gap: 16px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #D9D8D1;
+    border: 2px solid #024F40;
+}
+
+.futureLearn {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.lessonStats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.wishlistButton {
+    border: 2px solid #024F40;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.nextLessons {
+    flex: 1;
+    background-color: #F1F0E8;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #024F40;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.lessonList {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.lessonCard {
+    display: flex;
+    border: 2px solid #024F40;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    gap: 6px;
+}
+
+.lessonTitleSmall {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.lessonMeta {
+    font-size: 14px;
+    color: #555;
+}
+
+.checkboxContainer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.courseBox {
+    background-color: white;
+    border: 2px solid #024F40;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.courseHeader {
+    background-color: #f8f8f8;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom: 2px solid #024F40;
+    display: flex;
+    align-items: center; 
+}
+
+.progressBar2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px;
+    border-bottom: 2px solid #024F40;
+}
+
+.progressLabel {
+    font-weight: bold;
+    color: #000;
+    flex-shrink: 0;
+}
+
+.progressTrack {
+    flex: 1;
+    height: 12px;
+    background-color: #e8e8e8;
+    border: 1px solid #ccc;
+    display: flex;
+}
+
+.progressFill {
+    height: 100%;
+    background-color: #024F40;
+}
+
+.courseItem {
+    display: grid;
+    grid-template-columns: 40px 1fr 2fr 40px;
+    align-items: center;
+    border-bottom: 2px solid #024F40;
+}
+
+.courseItem>* {
+    padding: 12px;
+    border-right: 2px solid #024F40;
+}
+
+.lessonTitle {
+    font-weight: bold;
+    color: #024F40;
+}
+
+.lessonDescription {
+    font-size: 14px;
+    color: #024F40;
+}
+
+.checkbox {
+    width: 16px;
+    height: 16px;
+    accent-color: #024F40;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.lessonCheckbox{
+    width: 16px;
+    height: 16px;
+    accent-color: #024F40;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.expandIcon {
+    width: 48px;
+    padding-left: 12px !important;
+    border-right: none;
+}
+
+.expand {
+    text-align: center;
+    padding: 12px;
+    font-weight: bold;
+    color: #024F40;
+    cursor: pointer;
+    border-top: 2px solid #024F40;
+    background-color: #f8f8f8;
+}
+
+.expandButton {
+    background-color: transparent;
+    border: none;
+    color: #024F40;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.expandButton:hover {
+    color: #012c20;
+}
+
+.newsletter {
+    background-color: #D9D8D1;
+    padding: 96px;
+    margin-top: 30px;
+    text-align: center;
+    border-top: 2px solid #024F40;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.newsletter h3 {
+    font-size: 18px;
+    color: #024F40;
+    font-weight: bold;
+}
+
+.newsletter p {
+    font-size: 14px;
+    color: #024F40;
+}
+
+.subscription {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    padding: 8px;
+    border: 2px solid #024F40;
+    border-radius: 5px;
+}
+
+.input::placeholder{
+    color: #024F40;
+    font-weight: 700;
+}
+
+.subscribeButton {
+    background-color: #024F40;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.lessonThumbnail {
+    width: 45%;
+    height: 90px;
+    display: block;
+    background-color: white;
+    border: 2px solid #024F40;
+    border-radius: 5px;
+}
+
+.lessonText {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: start;
+    gap: 4px;
+}
+
+.videoTextParagraph {
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.videoControlsDiv img{
+    cursor: pointer;
+}
+
+.courseHeader p{
+    width: 30%;
+}
+
+@media screen and (max-width: 1024px) {
+    .videoPlayer {
+        height: 600px;
+    }
+
+    .videoDescription {
+        width: 100%;
+        flex-direction: column;
+        gap: 32px;
+        padding: 0px;
+    }
+
+    .lessonCard {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .lessonThumbnail {
+        width: 200px;
+        margin: 0 auto;
+        height: 100px;
+    }
+
+    .lessonText {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .videoTitle {
+        font-size: 31px;
+        line-height: 120%;
+    }
+
+    .videoTextParagraph {
+        font-size: 13px;
+        line-height: 120%;
+    }
+
+    .subscribeButton {
+        margin-left: 0px;
+    }
+
+    .videoText {
+        width: 100%;
+    }
+}
