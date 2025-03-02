@@ -59,9 +59,11 @@ const Header: React.FC = () => {
         </div>
 
         <div className="auth-buttons">
-          <button className="text-base text-center text-[#024f40]">
-            Log In
-          </button>
+          <NavLink to="/LoginPage">
+            <button className="text-base text-center text-[#024f40]">
+              Log In
+            </button>
+          </NavLink>
           <button className="gap-[100px] px-8 py-2 rounded-[5px] bg-[#024f40] border border-[#024f40] text-base font-bold text-[#f1f0e8]">
             Sign Up
           </button>
