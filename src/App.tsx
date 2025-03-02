@@ -9,6 +9,8 @@ import LoginPage from "./Pages/LoginPage/LoginPage";
 import OnBoardingPage from "./Pages/OnBoardingPage/OnBoardingPage";
 import ProfessorDashBoardPage from "./Pages/ProfessorDashBoardPage/ProfessorDashBoardPage";
 import UserAndDashBoardPage from "./Pages/UserAndDashBoardPage/UserAndDashBoardPage";
+import OnboardingHighFidelityPage from "./Pages/OnboardingHighFidelityPage/OnboardingHighFidelityPage";
+import OnboardingHighFidelityWelcomePage from "./Pages/OnboardingHighFidelityWelcomePage/OnboardingHighFidelityWelcomePage";
 
 function App() {
   return (
@@ -33,6 +35,14 @@ function App() {
           path="/UserAndDashBoardPage"
           element={<UserAndDashBoardPage />}
         />
+        <Route
+          path="/OnboardingHighFidelityPage"
+          element={<OnboardingHighFidelityPage />}
+        />
+      <Route
+        path="/OnboardingHighFidelityWelcomePage"
+        element={<OnboardingHighFidelityWelcomePage />}
+      />
       </Routes>
       <Footer />
     </Router>
