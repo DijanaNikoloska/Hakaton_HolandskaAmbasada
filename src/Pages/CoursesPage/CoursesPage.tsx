@@ -2,6 +2,7 @@ import CardList from "../Cards/Cards";
 
 function CoursesPage() {
   return (
+    <>
     <div className="NewSection">
       <div>
         <img
@@ -19,8 +20,9 @@ function CoursesPage() {
           you every step of the way. Start learning today!
         </p>
       </div>
-      <CardList />
     </div>
+      <CardList />
+    </>
   );
 }
 
