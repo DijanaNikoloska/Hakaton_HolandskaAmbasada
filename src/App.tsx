@@ -11,6 +11,8 @@ import ProfessorDashBoardPage from "./Pages/ProfessorDashBoardPage/ProfessorDash
 import UserAndDashBoardPage from "./Pages/UserAndDashBoardPage/UserAndDashBoardPage";
 import OnboardingHighFidelityPage from "./Pages/OnboardingHighFidelityPage/OnboardingHighFidelityPage";
 import OnboardingHighFidelityWelcomePage from "./Pages/OnboardingHighFidelityWelcomePage/OnboardingHighFidelityWelcomePage";
+import "./global.js"
+import DataVisualizationPage from "./Pages/DataVisualizationPage/DataVisualizationPage.js";
 
 function App() {
   return (
@@ -42,6 +44,10 @@ function App() {
       <Route
         path="/OnboardingHighFidelityWelcomePage"
         element={<OnboardingHighFidelityWelcomePage />}
+      />
+      <Route
+        path="/DataVisualizationPage"
+        element={<DataVisualizationPage />}
       />
       </Routes>
       <Footer />

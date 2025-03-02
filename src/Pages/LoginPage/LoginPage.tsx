@@ -1,4 +1,23 @@
+import React, { useState } from 'react';
+
 function LoginPage() {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
+  const handleSignIn = async () => {
+    try {
+      const response = await fetch('https://109d-79-126-130-179.ngrok-free.app/api/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, password }),
+      });
+      const data = await response.json();
+      console.log(data);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
   return (
     <div className="w-screen h-screen absolute top-0 left-0 flex justify-center items-center bg-[url('/public/images/LoginPage.png')] bg-cover">
       <div className="flex justify-start items-center w-[945.41px] gap-[61.621620178222656px] p-[51.89189147949219px] rounded-[4.05px] bg-[#fbfbf8] border-[1.62px] border-[#024f40]">
@@ -210,12 +229,17 @@ function LoginPage() {
               <input
                 className="flex-grow w-[280.54px] text-[12.972972869873047px] font-bold text-left text-[#024f40]"
                 placeholder="Email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
               />
             </div>
             <div className="flex justify-between items-center flex-grow-0 flex-shrink-0 w-[306.49px] h-[39.73px] relative px-[12.972972869873047px] py-[8.108108520507812px] rounded-[4.05px] border-[1.62px] border-[#024f40]">
               <input
                 className="flex-grow w-[280.54px] text-[12.972972869873047px] font-bold text-left text-[#024f40]"
                 placeholder="Password"
+                type='password'
+                value={password}
+        onChange={(e) => setPassword(e.target.value)}
               />
               <svg
                 width="19"
@@ -233,7 +257,7 @@ function LoginPage() {
               </svg>
             </div>
             <div className="flex justify-center items-center flex-grow-0 flex-shrink-0 w-[306.49px] h-[39.73px] relative gap-[81.0810775756836px] px-[25.945945739746094px] py-[6.486486434936523px] rounded-[4.05px] bg-[#024f40] border-[0.81px] border-[#024f40]">
-              <button className="text-[12.972972869873047px] font-bold text-[#f1f0e8]">
+              <button className="text-[12.972972869873047px] font-bold text-[#f1f0e8]" onClick={handleSignIn}>
                 Sign In
               </button>
             </div>
