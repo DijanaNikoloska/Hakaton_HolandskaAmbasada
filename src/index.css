@@ -8,3 +8,7 @@ body {
     background-color: #F1F0E8;
     color : #024F40;
 }
+
+p {
+    margin-bottom: 0;
+}

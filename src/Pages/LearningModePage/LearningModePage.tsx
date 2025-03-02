@@ -1,5 +1,5 @@
 function LearningModePage() {
-  return <div className="px-20 bg-[#F1F0E8]">
+  return <div className="px-20 bg-[#F1F0E8] pb-[80px]">
   <section className="flex justify-center items-center py-10 border-b-3 border-[#024F40]">
     <div className="w-full flex gap-6">
       <div
@@ -108,14 +108,14 @@ function LearningModePage() {
           </div>
         </div>
       </div>
-      <div className="flex justify-start items-center gap-6 py-10">
+      <div className="flex justify-center items-center gap-6 py-10">
         <div
-          className="flex justify-center items-center flex-grow-0 flex-shrink-0 gap-40 px-14 py-3 rounded-lg bg-[#024f40] shadow-lg">
+          className="flex justify-center items-center gap-40 px-14 py-3 rounded-lg bg-[#024f40] shadow-lg">
           <button className="flex-grow-0 flex-shrink-0 text-base font-bold text-left text-[#fbfbf8] font-4xl">
             Sign Up for Free
           </button>
         </div>
-        <p className="flex-grow-0 flex-shrink-0 text-2xl font-semibold text-left">
+        <p className="text-2xl font-semibold mt-auto">
           and get started.
         </p>
       </div>
@@ -193,7 +193,7 @@ function LearningModePage() {
 
     
     {/* <!----Reviews--> */}
-    <section className="flex flex-col justify-start border-2 border-[#024F40] p-10 rounded-lg py-10">
+    <section className="flex flex-col justify-start border-2 border-[#024F40] px-10 rounded-lg pt-10">
       <div className="flex flex-row gap-10 border-b-2 border-[#024F40] pb-10">
         <div className="flex flex-row gap-1">
           <div className="border-r-2 px-5 border-[#024F40] w-full h-full">
@@ -229,8 +229,8 @@ function LearningModePage() {
         </div>
       </div>
 
-      <div className="flex justify-end py-5">
-        <div className="gap-4">
+      <div className="flex justify-end py-[40px]">
+        <div className="flex gap-4">
           <button className="p-2 bg-[#D9D8D1]">
             <svg width="18" height="26" viewBox="0 0 18 26" fill="none" xmlns="http://www.w3.org/2000/svg"
               className="flex-grow-0 flex-shrink-0" preserveAspectRatio="none">

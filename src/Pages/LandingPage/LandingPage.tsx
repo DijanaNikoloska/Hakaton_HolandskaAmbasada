@@ -120,8 +120,8 @@ function LandingPage() {
                     </p>
                   </div>
                 </div>
-                <div className="flex justify-around items-center bg-text gap-[39px] border-2 rounded-[5px] w-[396px] h-[56] px-[5px] py-[16px]">
-                  <button className="text-white text-[18px] leaninig-[24px] font-bold">
+                <div className="flex justify-around items-center bg-text gap-[39px] border-2 rounded-[5px] w-[396px] h-[56] px-[5px] py-[16px] bg-[#024F40]">
+                  <button className="text-white text-[18px] leaninig-[24px] font-bolds">
                     Free Preview Lesson Available
                   </button>
                   <span>
@@ -152,7 +152,7 @@ function LandingPage() {
                     </p>
                   </div>
                 </div>
-                <div className="flex justify-around items-center bg-text gap-[39px] border-2 rounded-[5px] w-[396px] h-[56] px-[5px] py-[16px]">
+                <div className="flex justify-around items-center bg-text gap-[39px] border-2 rounded-[5px] w-[396px] h-[56] px-[5px] py-[16px] bg-[#024F40]">
                   <button className="text-white text-[18px] leaninig-[24px] font-bold">
                     Free Preview Lesson Available
                   </button>
@@ -245,8 +245,8 @@ function LandingPage() {
               </div>
             </div>
             <div>
-              <div className="flex justify-around items-center bg-text gap-[39px] border-2 border-text rounded-[5px] w-[552px] h-[56px] px-[5px] py-[16px]">
-                <button className="text-[18px] leaninig-[24px] font-bold">
+              <div className="flex justify-around items-center bg-text gap-[39px] border-2 border-text rounded-[5px] w-[552px] h-[56px] px-[5px] py-[16px] bg-[#024F40]">
+                <button className="text-[18px] leaninig-[24px] font-bold text-white">
                   Unlock Your First Certificate – Join Now!
                 </button>
                 <span>
