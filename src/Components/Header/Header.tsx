@@ -59,8 +59,12 @@ const Header: React.FC = () => {
         </div>
 
         <div className="auth-buttons">
-          <button>Log In</button>
-          <button className="sign-up">Sign Up</button>
+          <button className="text-base text-center text-[#024f40]">
+            Log In
+          </button>
+          <button className="gap-[100px] px-8 py-2 rounded-[5px] bg-[#024f40] border border-[#024f40] text-base font-bold text-[#f1f0e8]">
+            Sign Up
+          </button>
         </div>
       </div>
     </header>
