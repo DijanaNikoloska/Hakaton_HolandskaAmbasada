@@ -160,11 +160,11 @@ function LearningModePage() {
               Sign Up for Free
             </button>
           </div>
-          <p className="text-2xl font-semibold mt-auto">and get started.</p>
+          <p className="text-2xl font-semibold">and get started.</p>
         </div>
       </section>
 
-      <section className="pb-10">
+      {/* <section className="pb-10">
         <div className="accordion" id="accordionExample">
           <div className="accordion-item">
             <h2 className="accordion-header">
@@ -232,7 +232,7 @@ function LearningModePage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <h1 className="text-5xl font-bold mb-6 ">Description</h1>
       <p className="text-xl mb-5">
